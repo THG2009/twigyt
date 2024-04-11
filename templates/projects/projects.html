@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Projects - TwigSite</title>
+   <link rel="stylesheet" href="../../static/style/index.css">
+   <link rel="stylesheet" href="../../static/style/projects.css">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   {% include "header.html" %}
+   <div class="center">
+      <h1>Projects</h1>
+      <p>Project Stuff</p>
+      <table id="project_table">
+         <tr>
+            <td id="alpha_apis">
+               <div class="project_div">
+                  <h2><a href=" {{ url_for('alpha_apis') }} ">Alpha APIs</a></h2>
+               </div>
+            </td>
+            <td>
+               <div class="project_div">
+                  <h2>test</h2>
+               </div>
+            </td>
+            <td>
+               <div class="project_div">
+                  <h2>test</h2>
+               </div>
+            </td>
+         </tr>
+      </table>
+   </div>
+</body>
+
+</html>

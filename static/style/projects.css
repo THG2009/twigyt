@@ -1,0 +1,19 @@
+.project_div {
+   border: 2px solid var(--box-color-90);
+   border-radius: 5px;
+   text-align: center;
+   background-color: var(--box-color-80);
+   width: 25vw;
+}
+
+.project_div a {
+   font-family: "Noto Sans Mono", monospace;
+   font-size: 25px;
+   font-weight: 900;
+   font-style: italic;
+   text-decoration: none;
+}
+
+table#project_table {
+   border-spacing: 3em;
+}
