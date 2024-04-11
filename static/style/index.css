@@ -43,6 +43,66 @@ em {
    margin: 0px 15em;
 }
 
+@keyframes fade_up1 {
+   0% {
+      opacity: 0;
+      transform: translateY(100px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+}
+
+.fade_up1 {
+   animation-duration: 2s;
+   animation-name: fade_up1;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes fade_up2 {
+   0% {
+      opacity: 0;
+      transform: translateY(100px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+}
+
+.fade_up2 {
+   animation-duration: 2s;
+   animation-name: fade_up2;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+@keyframes fade_up3 {
+   0% {
+      opacity: 0;
+      transform: translateY(100px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0px);
+   }
+}
+
+.fade_up3 {
+   animation-duration: 2s;
+   animation-name: fade_up3;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
+
+
 #BETA {
    display: flex;
    flex-direction: row;
