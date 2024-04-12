@@ -102,6 +102,25 @@ em {
    opacity: 0;
 }
 
+.info_table tr td div {
+   border: 2px solid var(--box-color-90);
+   border-radius: 7px;
+   text-align: center;
+   background-color: var(--box-color-80);
+   width: 20vw;
+}
+
+.info_table tr td div a {
+   font-family: "Noto Sans Mono", monospace;
+   font-size: 25px;
+   font-weight: 900;
+   font-style: italic;
+   text-decoration: none;
+}
+
+table.info_table {
+   border-spacing: 5em;
+}
 
 #BETA {
    display: flex;
