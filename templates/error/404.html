@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>404 - TwigSite</title>
+   <link rel="stylesheet" href="../../static/style/index.css">
+   <link rel="stylesheet" href="../../static/style/error.css">
+</head>
+
+<body>
+   {% include "header.html" %}
+   <div class="center">
+      <h1>Sorry, that page does not exist.</h1>
+      <a href=" {{ url_for('home') }} ">Return to home</a>
+   </div>
+</body>
+
+</html>

@@ -22,5 +22,10 @@ def alpha_apis():
     return render_template('projects/alpha-apis.html')
 
 
+@app.errorhandler(404)
+def not_found_error(error):
+    return render_template('error/404.html'), 404
+
+
 if __name__ == '__main__':
     app.run()
