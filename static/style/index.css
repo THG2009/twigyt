@@ -63,6 +63,11 @@ em {
    margin: 0px 15em;
 }
 
+.headerbuttons {
+   border-spacing: 1px;
+   width: fit-content;
+}
+
 @keyframes fade_up1 {
    0% {
       opacity: 0;
