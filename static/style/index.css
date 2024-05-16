@@ -11,6 +11,24 @@
    --bg-color-10: hsl(22, 65%, 10%);
    --bg-color-0: hsl(22, 65%, 0%);
 
+
+   --secondary-color-base: hsl(110, 80%, 55%);
+
+   --secondary-color-100: hsl(110, 80%, 100%);
+   --secondary-color-90: hsl(110, 80%, 90%);
+   --secondary-color-80: hsl(110, 80%, 80%);
+   --secondary-color-70: hsl(110, 80%, 70%);
+   --secondary-color-60: hsl(110, 80%, 60%);
+   --secondary-color-50: hsl(110, 80%, 50%);
+   --secondary-color-40: hsl(110, 80%, 40%);
+   --secondary-color-30: hsl(110, 80%, 30%);
+   --secondary-color-20: hsl(110, 80%, 20%);
+   --secondary-color-10: hsl(110, 80%, 10%);
+   --secondary-color-0: hsl(110, 80%, 0%);
+
+
+   --box-color-base: hsl(195, 61%, 55%);
+
    --box-color-100: hsl(195, 61%, 100%);
    --box-color-90: hsl(195, 61%, 90%);
    --box-color-80: hsl(195, 61%, 80%);
@@ -28,7 +46,8 @@
 body {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;
-   background-color: hsl(0, 7%, 97%)
+   background-color: hsl(0, 0%, 100%);
+   background-image: linear-gradient(var(--secondary-color-60), var(--secondary-color-20));
 }
 
 em {
@@ -103,7 +122,7 @@ em {
    opacity: 0;
 }
 
-.info_table tr td div {
+table.info_table tr td div {
    border: 2px solid var(--box-color-90);
    border-radius: 7px;
    text-align: center;
@@ -111,7 +130,7 @@ em {
    width: 20vw;
 }
 
-.info_table tr td div a {
+table.info_table tr td div a {
    font-family: "Noto Sans Mono", monospace;
    font-size: 25px;
    font-weight: 900;
@@ -123,9 +142,9 @@ table.info_table {
    border-spacing: 5em;
 }
 
-header {
+header#home_text {
    font-family: "Noto Sans Mono", monospace;
-   font-size: 45px;
+   font-size: 64px;
    font-weight: 900;
    font-style: italic;
    text-decoration: none;

@@ -22,9 +22,14 @@ def alpha_apis():
     return render_template('projects/alpha-apis.html')
 
 
+@app.route('/youtube')
+def youtube():
+    return render_template('youtube/youtube.html')
+
+
 @app.errorhandler(404)
 def not_found_error(error):
-    return render_template('error/404.html'), 404
+    return render_template('error/404.html')
 
 
 if __name__ == '__main__':
