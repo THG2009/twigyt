@@ -1,5 +1,11 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
+from os import path
 app = Flask(__name__)
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 
 def ferblatin_to_english(word: str):
