@@ -7,12 +7,8 @@
 </head>
 
 <body>
-   <h1>Ferblatin Translator</h1>
-   <p>Translate any word or sentence into ferblatin!!! (Do not put any punctuation. Add that in later)</p>
-   <form action="/translated" method="post">
-      <input type="text" name="input" id="inputbox" width='60'>
-      <input type="SUBMIT" value="Translate!">
-   </form>
+   <h1><a href="{{ url_for('ferblatin') }}">Ferblatin Translator</a></h1>
+   <h1><a href="{{ url_for('english') }}">English to Ferblatin Translator</a></h1>
 </body>
 
 </html>
